@@ -11,6 +11,7 @@ end
 
 
 def print_first_directors_movie_titles
+<<<<<<< HEAD
 index = 0
 
 hoa = directors_database[0][:movies]
@@ -18,5 +19,12 @@ hoa = directors_database[0][:movies]
  while index < hoa.length do
   puts hoa[index][:title]
     index +=1
+=======
+ index = 0
+ while index < nds[1].length do
+   title = nds[1][index]
+   prints title
+   index += 1
+>>>>>>> a533dcf0727bb9b445198eaf7a0dd6f003dbba7c
  end
 end
